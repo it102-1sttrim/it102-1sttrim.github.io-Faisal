@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bg/j.jpeg) no-repeat;
+  background-size: cover;
+}
+span {
+  font-weight: bold;
+}
+.box {
+  width: 400px;
+  background: rgb(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 40px;
+  margin: auto;  
+  margin-top: -5%;
+  color: black;
+  font-family: Pristina;
+  border-radius: 10%;
+}
+.box-img {
+  border-radius:50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1 {
+  font-size: 30px;
+  font-weight: 2em;
+  font-family: castellar;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 2em;
+  font-family: ROG Fonts;
+}
+.box p{
+  text-align: justify;
+  font-family: Cambria;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-top: 3%;
+}
+a{
+  font-size: 1em;
+  color: black;
+}
+ul{
+  margin: 0%;
+  padding: 0%;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  background-color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: all ease-in-out 250ms;
+}
+.box a:visited{ 
+  color:#336633;
+}
+
+/*resume*/
+body{
+  font-family: cambria;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: black;
+  background-image: url(bg/j.jpeg);
+}
+span {
+  font-weight: bold;
+}
+h2 , h3 {
+  color:black;
+  background-color: coral;
+}
+/*pictures*/
+
+img {
+  height: 350x;
+  width: 350px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  border-radius: 2em;
+  opacity: 0.5;
+  border:1px solid;
+}
+img:hover {
+  opacity: 1;
+}
+.d2 {
+  height: 400px;
+  width: 480px;
+}
+
+
+/*link*/
+
+a {
+  color: burlywood;
+  font-family: 'Segoe UI';
+  text-decoration: none;
+  font-size: 3em;
+  font-family: century gothic;
+}
+a:hover{
+  color:blueviolet;
+}
+.li {
+  list-style: none;
+}
+
+/*About Me*/
+.love {
+  margin-left: 35%;
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    
+    height: 90%;
+  }
+  .love {
+    margin-left: 5%;
+    height: 250px;
+    width: 250px;
+  }
+  .p1 {
+    text-align: justify;
+  }
+  .tas {
+    margin-left: 0%;
+  }
+  .d1 {
+    height: 300px;
+    width: 300px;
+  }
+}
